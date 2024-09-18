@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import { authGuard } from "../auth/authGuard";
 
 Vue.use(Router)
-
+console.log(Router)
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
